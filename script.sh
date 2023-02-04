@@ -1,6 +1,7 @@
 #! /bin/bash
 # Maximiliano Herrera x20103212
 
+rm  -r fol_1 fol_2
 # create 2 folders called fol_1, fol_2.
 mkdir fol_1 fol_2
 
@@ -23,3 +24,4 @@ git add .
 git commit -m "Week 2 Lab – Bash & Git : generate script.sh script to push on repository"
 git push
 
+echo "Job completed"
